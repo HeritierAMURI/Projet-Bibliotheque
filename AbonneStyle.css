@@ -1,0 +1,192 @@
+
+body
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;   
+    background-color: rgb(225, 225, 225);
+}
+.menu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 15%;
+    height: 100vh;
+    background-color:white;
+    color: white;
+
+}
+
+.Icone-Library{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+}
+
+nav a
+{
+    color: #1b1a1a;
+    text-decoration: none;
+}
+
+nav h2
+{
+    color: #1b1b1b;
+    text-decoration: none;
+    background-color: #E1E1E1;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: -4%;
+    margin-top: 12%;
+    padding: 5px;
+}
+
+nav h3
+{
+    color: #1b1b1b;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+nav h3:hover
+{
+    background-color: #E1E1E1;
+
+}
+
+.actionMenu{
+    display: flex;
+    gap: 10px;
+    margin-left: 15%;
+    margin-bottom: -12%;
+}
+
+.iconeActionMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center; 
+    height: 35px;
+    width: 35px;
+}
+.iconeActionMenu img{
+    width: 100%;
+    height: 100%;
+}
+
+.titreAbonne {
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 60%;
+    background-color: white;
+    border-left: 12px solid #58a9b3;
+    border-right: 12px solid #58a9b3;
+    width: 30%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.titreLivre {
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 50%;
+    background-color: white;
+    border-left: 12px solid #58a9b3;
+    border-right: 12px solid #58a9b3;
+    width: 20%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tableAbonne
+{
+    width: 100%;
+    background-color: #fff;
+    margin-left: 20%;
+    margin-top: 1%;
+    border-collapse: collapse;
+}
+
+.tableLivre{
+    background-color: #fff;
+    margin-left: 20%;
+    margin-top: 2%;
+    border-collapse: collapse;
+}
+
+table:hover{
+    box-shadow: 0px 0px 20px #58a9b3;;
+}
+table td input[type="text"]:hover{
+    box-shadow: 0px 0px 15px #fff;
+    border: 1px solid #000;
+}
+
+th
+{
+    padding: 10px;
+    color: #fff;
+    background: #58a9b3;
+    font-size: 1.2em;   
+}
+
+.auto{
+    color: #888282;
+}
+
+.auto:hover{
+    color: #fdfdfd;
+}
+
+table td select, table td input[type="number"], table td input[type="date"]{
+    width: max-content;
+    padding: 10px;
+    border: 1px solid rgb(225, 225, 225);
+  }
+table td select:hover, table td input[type="number"]:hover, table td input[type="date"]:hover{
+    box-shadow: 0px 0px 15px #fff;
+    border: 1px solid #000;
+}
+
+
+.ligne-form
+{
+    background-color: rgb(255, 255, 255);
+}
+.td-form
+{
+    padding: 12px;
+    border-bottom: 2px solid #58a9b3;
+}
+
+tr:hover {
+    background-color: rgb(225, 225, 225);
+   }
+.ligne-form:hover
+{
+    background-color:#58a9b3;;
+}
+
+table td input{
+  width: max-content;
+  padding: 10px;
+  border: 1px solid rgb(225, 225, 225);
+}
+
+.enregistrer button
+  {
+    
+    padding: 10px 10px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px ;
+    border: 1px solid rgb(225, 225, 225);
+    background-color: rgba(0, 0, 0, 0.954);
+    font-weight: bold;
+  }
+
+table tbody td{
+    padding: 0.8%;
+    border-bottom: 2px solid #58a9b3;
+}

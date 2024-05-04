@@ -1,0 +1,124 @@
+
+body
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;   
+    background-color: rgb(225, 225, 225);
+}
+.menu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 15%;
+    height: 100vh;
+    background-color:white;
+    color: white;
+
+}
+
+.Icone-Library{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+}
+
+.conenuDroite{
+   margin-left: 25%;
+}
+
+nav a
+{
+    color: #1b1a1a;
+    text-decoration: none;
+}
+
+nav h2
+{
+    color: #1b1b1b;
+    text-decoration: none;
+    background-color: #E1E1E1;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: -4%;
+    margin-top: 12%;
+    padding: 5px;
+}
+
+nav h3
+{
+    color: #1b1b1b;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+nav h3:hover
+{
+    background-color: #E1E1E1;
+
+}
+
+.actionMenu{
+    display: flex;
+    gap: 10px;
+    margin-left: 15%;
+    margin-bottom: -12%;
+}
+
+.iconeActionMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center; 
+    height: 35px;
+    width: 35px;
+}
+.iconeActionMenu img{
+    width: 100%;
+    height: 100%;
+}
+
+.description{
+    margin-top: 5%;
+    margin-left: -10%;
+    background-color: #fff;
+    width: 105%;
+    border-radius: 8px;
+    padding-bottom: 2%;
+}
+
+.description .titre {
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    color: #0c7988;
+    text-align: center;
+}
+.description p{
+    margin-left: 2%;
+    font-size: 1.3em;
+}
+
+.situationBibliotheque{
+    display: flex;
+    margin-left: -10%;
+    margin-top: 10%;
+    width: 105%;
+    gap: 10%;
+}
+.vosAbonnes, .vosAuteurs, .vosLivres, .vosEmprunts, .vosRetour{
+    text-align: center;
+    background-color: #58a9b3;
+    width: 15%;
+    border-radius: 8px;
+}
+
+.choixAccuril{
+    text-decoration: none;
+    color: #000;
+}
+
+.situationBibliotheque h1{
+    color: #fff;
+}
